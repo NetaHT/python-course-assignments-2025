@@ -1,4 +1,4 @@
-**AI tools used:** co-pilot, claude sonnet 3.5****
+**AI tools used:** co-pilot, claude sonnet 3.5
 
 ## Function use:
 In our lab, we work with Drosophila Melanogaster, that have a relatively short life cycle. Therefore, when we collect offspring from a cross, we need to make sure

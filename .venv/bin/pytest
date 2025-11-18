@@ -1,0 +1,9 @@
+#!/bin/sh
+'''exec' "/Users/netah/Library/CloudStorage/OneDrive-weizmann.ac.il/PhD- personal/courses/python/python-course-assignments-2025-1/.venv/bin/python3" "$0" "$@"
+' '''
+import sys
+from pytest import console_main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(console_main())

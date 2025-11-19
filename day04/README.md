@@ -1,9 +1,9 @@
 # Recombination Rate Calculator
-UI: GUI\
-Input: _Drosophila melanogaster gene name/FlyBase IDS_ (FlyBase website)[https://flybase.org/]\
-Output: gene location- chromosome, genetic distance and recombination rate.
-Data source:(NCBI)[https://www.ncbi.nlm.nih.gov/] website.\
-Warnings: 
+**UI:** GUI\
+**Input:** _Drosophila melanogaster gene name/FlyBase IDS_ (FlyBase website)[https://flybase.org/]\
+**Output:** gene location- chromosome, genetic distance and recombination rate.
+**Data source:**(NCBI)[https://www.ncbi.nlm.nih.gov/] website.\
+**Warnings:** 
 1. The program warns the user in case of ambigous gene name- a name that can refer to multuple genes. 
 2. The program Let's the user know when one of the genes is close to a centromere, according to parameters that I found in an article, as no recombination occurs in these regions in the fly.
 

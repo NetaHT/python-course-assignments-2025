@@ -23,9 +23,8 @@ according to these parameters:
 "3L": 0.86e6\
 "3R": 4.53e6\
 "X": 1.53e6\
-\
 3.for some reason it accepts gene names as a valid input, but makes mistakes as opposed to when i enter flybase id,
-do you know what could be the reason for this?
+do you know what could be the reason for this?\
 4. yes, please rewrite the "fetch gene info"
 
 םו

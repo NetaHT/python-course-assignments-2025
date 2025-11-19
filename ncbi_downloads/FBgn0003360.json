@@ -1,0 +1,57 @@
+{
+    "uid": "32007",
+    "name": "sesB",
+    "description": "stress-sensitive B",
+    "status": "",
+    "currentid": "",
+    "chromosome": "X",
+    "geneticsource": "genomic",
+    "maplocation": "1-33 cM",
+    "otheraliases": "Dmel_CG16944, A/A-T, A/A-T/sesB, ADP/ATP translocase, ADT2, ANT, ANT1, CG16944, Dmel\\CG16944, EM12, Hmr, S12, SESB, SesB, anon-WO02059370.55, dANT, dSLC25A4, jive, l(1)9Ed, l(1)9Fa, l(1)DC701, l(1)EM31, l(1)G0126, l(1)G0247, l(1)G0386, l(1)S12, orangi, ses B, sesb",
+    "otherdesignations": "stress-sensitive B|ADP,ATP carrier protein|CG16944-PA|CG16944-PB|CG16944-PC|CG16944-PD|CG16944-PE|Stress-sensitive B|adenine nuclear translocase|adenine nucleotide translocase|drosophila ANT|lethal(1)9Ed|sesB-PA|sesB-PB|sesB-PC|sesB-PD|sesB-PE|stress sensitive B|stress-sensitive",
+    "nomenclaturesymbol": "sesB",
+    "nomenclaturename": "stress-sensitive B",
+    "nomenclaturestatus": "Official",
+    "mim": [],
+    "genomicinfo": [
+        {
+            "chrloc": "X",
+            "chraccver": "NC_004354.4",
+            "chrstart": 10786957,
+            "chrstop": 10780892,
+            "exoncount": 6
+        }
+    ],
+    "geneweight": 3596,
+    "summary": "Enables ATP:ADP antiporter activity. Involved in several processes, including determination of adult lifespan; intracellular calcium ion homeostasis; and muscle cell cellular homeostasis. Located in mitochondrial inner membrane. Is expressed in several structures, including adult head; adult heart; adult main segment of Malpighian tubule; adult midgut; and gonad. Used to study epilepsy and mitochondrial metabolism disease. Human ortholog(s) of this gene implicated in intrinsic cardiomyopathy (multiple); mitochondrial DNA depletion syndrome (multiple); and mitochondrial myopathy (multiple). Orthologous to human SLC25A4 (solute carrier family 25 member 4); SLC25A5 (solute carrier family 25 member 5); and SLC25A6 (solute carrier family 25 member 6). [provided by Alliance of Genome Resources, Jul 2025]",
+    "chrsort": "X",
+    "chrstart": 10780892,
+    "organism": {
+        "scientificname": "Drosophila melanogaster",
+        "commonname": "fruit fly",
+        "taxid": 7227
+    },
+    "locationhist": [
+        {
+            "annotationrelease": "6.54",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NC_004354.4",
+            "chrstart": 10786957,
+            "chrstop": 10780892
+        },
+        {
+            "annotationrelease": "6.46",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NC_004354.4",
+            "chrstart": 10786957,
+            "chrstop": 10780892
+        },
+        {
+            "annotationrelease": "5.57",
+            "assemblyaccver": "GCF_000001215.2",
+            "chraccver": "NC_004354.3",
+            "chrstart": 10680990,
+            "chrstop": 10674925
+        }
+    ]
+}

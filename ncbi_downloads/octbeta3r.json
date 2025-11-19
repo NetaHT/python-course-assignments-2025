@@ -1,0 +1,57 @@
+{
+    "uid": "3885573",
+    "name": "Octbeta3R",
+    "description": "Octopamine beta3 receptor",
+    "status": "",
+    "currentid": "",
+    "chromosome": "3R",
+    "geneticsource": "genomic",
+    "maplocation": "3-52 cM",
+    "otheraliases": "Dmel_CG42244, CG18554, CG31348, CG31350, CG31351, CG33959, CG34055, CG42244, CG7078, DmCG7078, DmOctbeta3R, Dmel\\CG42244, Dmel_CG18554, Dmel_CG33959, Dmel_CG34055, OctBeta3, Octb3R, anon-WO0170980.187, anon-WO0170980.188, octRbeta3, octbeta3R, octbeta3r",
+    "otherdesignations": "octopamine beta3 receptor|CG42244-PF|CG42244-PG|CG42244-PJ|CG42244-PK|Octbeta3R-PF|Octbeta3R-PG|Octbeta3R-PJ|Octbeta3R-PK|octopamine receptor beta3",
+    "nomenclaturesymbol": "Octbeta3R",
+    "nomenclaturename": "Octopamine beta3 receptor",
+    "nomenclaturestatus": "Official",
+    "mim": [],
+    "genomicinfo": [
+        {
+            "chrloc": "3R",
+            "chraccver": "NT_033777.3",
+            "chrstart": 12548228,
+            "chrstop": 12511569,
+            "exoncount": 10
+        }
+    ],
+    "geneweight": 1964,
+    "summary": "Enables octopamine receptor activity. Involved in adenylate cyclase-activating G protein-coupled receptor signaling pathway. Located in plasma membrane. Is expressed in several structures, including adult antennal lobe; adult brain; epithelial tube; ganglia; and mushroom body. Human ortholog(s) of this gene implicated in several diseases, including artery disease (multiple); autoimmune disease (multiple); disease of metabolism (multiple); lung disease (multiple); and open-angle glaucoma (multiple). Orthologous to several human genes including HTR4 (5-hydroxytryptamine receptor 4); ADRB1 (adrenoceptor beta 1); and ADRB2 (adrenoceptor beta 2). [provided by Alliance of Genome Resources, Jul 2025]",
+    "chrsort": "03R",
+    "chrstart": 12511569,
+    "organism": {
+        "scientificname": "Drosophila melanogaster",
+        "commonname": "fruit fly",
+        "taxid": 7227
+    },
+    "locationhist": [
+        {
+            "annotationrelease": "6.54",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NT_033777.3",
+            "chrstart": 12548228,
+            "chrstop": 12511569
+        },
+        {
+            "annotationrelease": "6.46",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NT_033777.3",
+            "chrstart": 12548228,
+            "chrstop": 12511569
+        },
+        {
+            "annotationrelease": "5.57",
+            "assemblyaccver": "GCF_000001215.2",
+            "chraccver": "NT_033777.2",
+            "chrstart": 8373950,
+            "chrstop": 8337291
+        }
+    ]
+}

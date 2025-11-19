@@ -1,0 +1,57 @@
+{
+    "uid": "31310",
+    "name": "Myc",
+    "description": "Myc",
+    "status": "",
+    "currentid": "",
+    "chromosome": "X",
+    "geneticsource": "genomic",
+    "maplocation": "1-3 cM",
+    "otheraliases": "Dmel_CG10798, CG10798, D-Myc, DM, DMYc, Diminutive, Dm, Dmel\\CG10798, Dmyc, EG:BACN5I9.1, MYC, anon-WO03040301.171, bHLHe57, c-MYC, c-Myc, c-myc, cMyc, d-myc, dMYC, dMyc, dMyc1, dm, dm/dMyc, dm/myc, dmyc, dmyc1, l(1)G0139, l(1)G0354, l(1)G0359, myc",
+    "otherdesignations": "Myc|CG10798-PA|CG10798-PB|Myc-PA|Myc-PB|diminuitive|diminutive|lethal (1) G0354|lethal (1) G0359",
+    "nomenclaturesymbol": "Myc",
+    "nomenclaturename": "Myc",
+    "nomenclaturestatus": "Official",
+    "mim": [],
+    "genomicinfo": [
+        {
+            "chrloc": "X",
+            "chraccver": "NC_004354.4",
+            "chrstart": 3373158,
+            "chrstop": 3391696,
+            "exoncount": 3
+        }
+    ],
+    "geneweight": 19210,
+    "summary": "Enables DNA binding activity; DNA-binding transcription factor activity; and ubiquitin-specific protease binding activity. Involved in several processes, including DNA endoreduplication; positive regulation of developmental growth; and positive regulation of macromolecule biosynthetic process. Located in nucleolus. Part of protein-containing complex. Colocalizes with histone locus body. Is expressed in several structures, including anlage in statu nascendi; cuboidal/columnar epithelium; embryonic/larval midgut primordium; germline cell; and gut section. Used to study brain cancer and cancer. Human ortholog(s) of this gene implicated in several diseases, including angiosarcoma; carcinoma (multiple); demyelinating disease; hematologic cancer (multiple); and prostate cancer (multiple). Orthologous to human MYC (MYC proto-oncogene, bHLH transcription factor). [provided by Alliance of Genome Resources, Apr 2025]",
+    "chrsort": "X",
+    "chrstart": 3373158,
+    "organism": {
+        "scientificname": "Drosophila melanogaster",
+        "commonname": "fruit fly",
+        "taxid": 7227
+    },
+    "locationhist": [
+        {
+            "annotationrelease": "6.54",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NC_004354.4",
+            "chrstart": 3373158,
+            "chrstop": 3391696
+        },
+        {
+            "annotationrelease": "6.46",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NC_004354.4",
+            "chrstart": 3373158,
+            "chrstop": 3391696
+        },
+        {
+            "annotationrelease": "5.57",
+            "assemblyaccver": "GCF_000001215.2",
+            "chraccver": "NC_004354.3",
+            "chrstart": 3267191,
+            "chrstop": 3285729
+        }
+    ]
+}

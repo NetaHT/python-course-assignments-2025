@@ -1,0 +1,57 @@
+{
+    "uid": "43484",
+    "name": "Dop1R2",
+    "description": "Dopamine 1-like receptor 2",
+    "status": "",
+    "currentid": "",
+    "chromosome": "3R",
+    "geneticsource": "genomic",
+    "maplocation": "3-99 cM",
+    "otheraliases": "Dmel_CG18741, CG18741, CG7569, D1R2, D2R, DAMB, DDR2, DOPR2, DOPR99B, DR2, Damb, Dar2, DmDOP2, Dmel\\CG18741, Dop1r2, DopD1, DopR, DopR2, DopR99B, DopRII, K13sc, damb, dopr2",
+    "otherdesignations": "dopamine 1-like receptor 2|CG18741-PA|CG18741-PB|CG18741-PC|DAMB DA receptor|D[|Dop1R2-PA|Dop1R2-PB|Dop1R2-PC|K13sc|damb|dopamine receptor 2|dopamine receptor in mushroom bodies|dopamine receptor in mushroom body|dopamine-2 receptor",
+    "nomenclaturesymbol": "Dop1R2",
+    "nomenclaturename": "Dopamine 1-like receptor 2",
+    "nomenclaturestatus": "Official",
+    "mim": [],
+    "genomicinfo": [
+        {
+            "chrloc": "3R",
+            "chraccver": "NT_033777.3",
+            "chrstart": 29659983,
+            "chrstop": 29630303,
+            "exoncount": 6
+        }
+    ],
+    "geneweight": 5798,
+    "summary": "Enables dopamine neurotransmitter receptor activity, coupled via Gs and tyramine receptor activity. Involved in several processes, including adenylate cyclase-activating dopamine receptor signaling pathway; regulation of presynaptic cytosolic calcium ion concentration; and response to odorant. Predicted to be located in membrane. Predicted to be active in plasma membrane. Is expressed in adult mushroom body alpha-lobe; adult mushroom body beta-lobe; lobe system of mushroom body; mushroom body; and mushroom body spur. Human ortholog(s) of this gene implicated in Alzheimer's disease; heroin dependence; and hypertension. Orthologous to human ADRA1A (adrenoceptor alpha 1A); ADRA1B (adrenoceptor alpha 1B); and ADRA1D (adrenoceptor alpha 1D). [provided by Alliance of Genome Resources, Jul 2025]",
+    "chrsort": "03R",
+    "chrstart": 29630303,
+    "organism": {
+        "scientificname": "Drosophila melanogaster",
+        "commonname": "fruit fly",
+        "taxid": 7227
+    },
+    "locationhist": [
+        {
+            "annotationrelease": "6.54",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NT_033777.3",
+            "chrstart": 29659983,
+            "chrstop": 29630303
+        },
+        {
+            "annotationrelease": "6.46",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NT_033777.3",
+            "chrstart": 29659983,
+            "chrstop": 29630303
+        },
+        {
+            "annotationrelease": "5.57",
+            "assemblyaccver": "GCF_000001215.2",
+            "chraccver": "NT_033777.2",
+            "chrstart": 25485705,
+            "chrstop": 25456025
+        }
+    ]
+}

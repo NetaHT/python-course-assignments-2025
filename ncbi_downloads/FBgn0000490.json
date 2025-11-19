@@ -1,0 +1,57 @@
+{
+    "uid": "33432",
+    "name": "dpp",
+    "description": "decapentaplegic",
+    "status": "",
+    "currentid": "",
+    "chromosome": "2L",
+    "geneticsource": "genomic",
+    "maplocation": "2-6 cM",
+    "otheraliases": "Dmel_CG9885, BMP, Bmp, CG9885, DPP, DPP-C, Dm-DPP, DmDPP, Dmel\\CG9885, Dpp, Dpp/TGFbeta, Hin-d, M(2)23AB, M(2)LS1, TGF-b, TGF-beta, TGFbeta, Tg, Tgfbeta, blk, ho, l(2)10638, l(2)22Fa, l(2)k17036, shv",
+    "otherdesignations": "decapentaplegic|CG9885-PA|CG9885-PB|CG9885-PC|CG9885-PE|Decapentaplegic/Bone morphogenetic protein|Haplo-insufficient|blink|bone morphogenetic protein|bone morphogenic protein|dpp-PA|dpp-PB|dpp-PC|dpp-PE|heldout|shortvein|tegula",
+    "nomenclaturesymbol": "dpp",
+    "nomenclaturename": "decapentaplegic",
+    "nomenclaturestatus": "Official",
+    "mim": [],
+    "genomicinfo": [
+        {
+            "chrloc": "2L",
+            "chraccver": "NT_033779.5",
+            "chrstart": 2428371,
+            "chrstop": 2459822,
+            "exoncount": 6
+        }
+    ],
+    "geneweight": 69395,
+    "summary": "Enables several functions, including heparin binding activity; protein dimerization activity; and signaling receptor binding activity. Involved in several processes, including embryonic morphogenesis; open tracheal system development; and regionalization. Acts upstream of with a positive effect on imaginal disc fusion, thorax closure. Located in cell leading edge; dense core granule lumen; and extracellular space. Colocalizes with cytoneme. Is expressed in several structures, including anterior-posterior subdivision of organism; compartment boundary; epithelium; imaginal disc; and wing vein. Used to study juvenile polyposis syndrome. Human ortholog(s) of this gene implicated in several diseases, including CAKUT (multiple); bone disease (multiple); cleft lip; hemochromatosis type 1; and orofacial cleft 11. Orthologous to human BMP2 (bone morphogenetic protein 2) and BMP4 (bone morphogenetic protein 4). [provided by Alliance of Genome Resources, Jul 2025]",
+    "chrsort": "02L",
+    "chrstart": 2428371,
+    "organism": {
+        "scientificname": "Drosophila melanogaster",
+        "commonname": "fruit fly",
+        "taxid": 7227
+    },
+    "locationhist": [
+        {
+            "annotationrelease": "6.54",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NT_033779.5",
+            "chrstart": 2428371,
+            "chrstop": 2459822
+        },
+        {
+            "annotationrelease": "6.46",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NT_033779.5",
+            "chrstart": 2428371,
+            "chrstop": 2459822
+        },
+        {
+            "annotationrelease": "5.57",
+            "assemblyaccver": "GCF_000001215.2",
+            "chraccver": "NT_033779.4",
+            "chrstart": 2428371,
+            "chrstop": 2459822
+        }
+    ]
+}

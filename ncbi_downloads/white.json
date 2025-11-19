@@ -1,0 +1,57 @@
+{
+    "uid": "31271",
+    "name": "w",
+    "description": "white",
+    "status": "",
+    "currentid": "",
+    "chromosome": "X",
+    "geneticsource": "genomic",
+    "maplocation": "1-1.5 cM",
+    "otheraliases": "Dmel_CG2759, BACN33B1.1, CG2759, DMWHITE, DmWhite, Dmel\\CG2759, EG:BACN33B1.1, W, White, c23, e(g), m(g), mini-white, mw, w(AT)[[13]]",
+    "otherdesignations": "white|CG2759-PA|enhancer of garnet|mini-white|modifier of garnet|w-PA",
+    "nomenclaturesymbol": "w",
+    "nomenclaturename": "white",
+    "nomenclaturestatus": "Official",
+    "mim": [],
+    "genomicinfo": [
+        {
+            "chrloc": "X",
+            "chraccver": "NC_004354.4",
+            "chrstart": 2796465,
+            "chrstop": 2790598,
+            "exoncount": 6
+        }
+    ],
+    "geneweight": 144459,
+    "summary": "Enables amine transmembrane transporter activity; organic anion transmembrane transporter activity; and purine nucleobase transmembrane transporter activity. Involved in several processes, including aminergic neurotransmitter loading into synaptic vesicle; cGMP transport; and purine nucleobase transport. Located in pigment granule membrane. Is expressed in several structures, including Malpighian tubule; adult glial cell; embryonic/larval fat body; head; and lamina. [provided by Alliance of Genome Resources, Jul 2025]",
+    "chrsort": "X",
+    "chrstart": 2790598,
+    "organism": {
+        "scientificname": "Drosophila melanogaster",
+        "commonname": "fruit fly",
+        "taxid": 7227
+    },
+    "locationhist": [
+        {
+            "annotationrelease": "6.54",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NC_004354.4",
+            "chrstart": 2796465,
+            "chrstop": 2790598
+        },
+        {
+            "annotationrelease": "6.46",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NC_004354.4",
+            "chrstart": 2796465,
+            "chrstop": 2790598
+        },
+        {
+            "annotationrelease": "5.57",
+            "assemblyaccver": "GCF_000001215.2",
+            "chraccver": "NC_004354.3",
+            "chrstart": 2690498,
+            "chrstop": 2684631
+        }
+    ]
+}

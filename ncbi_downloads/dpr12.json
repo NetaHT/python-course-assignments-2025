@@ -1,0 +1,57 @@
+{
+    "uid": "50320",
+    "name": "dpr12",
+    "description": "defective proboscis extension response 12",
+    "status": "",
+    "currentid": "",
+    "chromosome": "2R",
+    "geneticsource": "genomic",
+    "maplocation": "2-55 cM",
+    "otheraliases": "Dmel_CG34385, CG14469, CG34385, CG7796, CT34165, Dmel\\CG34385, Dmel_CG14469, Dmel_CG7796, Dpr-12, Dpr12",
+    "otherdesignations": "defective proboscis extension response 12|CG34385-PC|CG34385-PD|CG34385-PE|dpr12-PC|dpr12-PD|dpr12-PE",
+    "nomenclaturesymbol": "dpr12",
+    "nomenclaturename": "defective proboscis extension response 12",
+    "nomenclaturestatus": "Official",
+    "mim": [],
+    "genomicinfo": [
+        {
+            "chrloc": "2R",
+            "chraccver": "NT_033778.4",
+            "chrstart": 5804711,
+            "chrstop": 5860830,
+            "exoncount": 10
+        }
+    ],
+    "geneweight": 1013,
+    "summary": "Involved in synapse organization and synaptic target recognition. Predicted to be active in neuron projection membrane. Is expressed in embryonic head sensory system; larval ventral nerve cord; and ventral nerve cord primordium. [provided by Alliance of Genome Resources, Jul 2025]",
+    "chrsort": "02R",
+    "chrstart": 5804711,
+    "organism": {
+        "scientificname": "Drosophila melanogaster",
+        "commonname": "fruit fly",
+        "taxid": 7227
+    },
+    "locationhist": [
+        {
+            "annotationrelease": "6.54",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NT_033778.4",
+            "chrstart": 5804711,
+            "chrstop": 5860830
+        },
+        {
+            "annotationrelease": "6.46",
+            "assemblyaccver": "GCF_000001215.4",
+            "chraccver": "NT_033778.4",
+            "chrstart": 5804711,
+            "chrstop": 5860830
+        },
+        {
+            "annotationrelease": "5.57",
+            "assemblyaccver": "GCF_000001215.2",
+            "chraccver": "NT_033778.3",
+            "chrstart": 1692216,
+            "chrstop": 1748335
+        }
+    ]
+}

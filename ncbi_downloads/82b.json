@@ -1,0 +1,27 @@
+{
+    "uid": "247844",
+    "name": "l(3)S143609",
+    "description": "",
+    "status": 2,
+    "currentid": "",
+    "chromosome": "3",
+    "geneticsource": "genomic",
+    "maplocation": "82B",
+    "otheraliases": "FBgn0060344, 1436/09",
+    "otherdesignations": "",
+    "nomenclaturesymbol": "",
+    "nomenclaturename": "",
+    "nomenclaturestatus": "",
+    "mim": [],
+    "genomicinfo": [],
+    "geneweight": "",
+    "summary": "",
+    "chrsort": "~~last",
+    "chrstart": 999999999,
+    "organism": {
+        "scientificname": "Drosophila melanogaster",
+        "commonname": "fruit fly",
+        "taxid": 7227
+    },
+    "locationhist": []
+}

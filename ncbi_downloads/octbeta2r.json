@@ -1,31 +1,31 @@
 {
-    "uid": "31310",
-    "name": "Myc",
-    "description": "Myc",
+    "uid": "41549",
+    "name": "Octbeta2R",
+    "description": "Octopamine beta2 receptor",
     "status": "",
     "currentid": "",
-    "chromosome": "X",
+    "chromosome": "3R",
     "geneticsource": "genomic",
-    "maplocation": "1-3 cM",
-    "otheraliases": "Dmel_CG10798, CG10798, D-Myc, DM, DMYc, Diminutive, Dm, Dmel\\CG10798, Dmyc, EG:BACN5I9.1, MYC, anon-WO03040301.171, bHLHe57, c-MYC, c-Myc, c-myc, cMyc, d-myc, dMYC, dMyc, dMyc1, dm, dm/dMyc, dm/myc, dmyc, dmyc1, l(1)G0139, l(1)G0354, l(1)G0359, myc",
-    "otherdesignations": "Myc|CG10798-PA|CG10798-PB|Myc-PA|Myc-PB|diminuitive|diminutive|lethal (1) G0354|lethal (1) G0359",
-    "nomenclaturesymbol": "Myc",
-    "nomenclaturename": "Myc",
+    "maplocation": "3-52 cM",
+    "otheraliases": "Dmel_CG33976, CG18553, CG33976, CG6989, DmCG6989, DmOctbeta2R, Dm_3R:45121, Dmel\\CG33976, OCTbeta2R, OctB2R, OctBeta2, Octb2R, Octbeta-like, Octbeta2r, anon-WO0170980.184, anon-WO0170980.185, octb2R, octbeta2R, octbeta2r",
+    "otherdesignations": "octopamine beta2 receptor|CG33976-PA|CG33976-PC|CG33976-PD|CG33976-PE|CG33976-PF|CG33976-PG|OctBeta2R|Octbeta2R-PA|Octbeta2R-PC|Octbeta2R-PD|Octbeta2R-PE|Octbeta2R-PF|Octbeta2R-PG|octopamine beta receptor|octopamine receptor",
+    "nomenclaturesymbol": "Octbeta2R",
+    "nomenclaturename": "Octopamine beta2 receptor",
     "nomenclaturestatus": "Official",
     "mim": [],
     "genomicinfo": [
         {
-            "chrloc": "X",
-            "chraccver": "NC_004354.4",
-            "chrstart": 3373158,
-            "chrstop": 3391696,
-            "exoncount": 3
+            "chrloc": "3R",
+            "chraccver": "NT_033777.3",
+            "chrstart": 12595724,
+            "chrstop": 12550624,
+            "exoncount": 9
         }
     ],
-    "geneweight": 19210,
-    "summary": "Enables DNA binding activity; DNA-binding transcription factor activity; and ubiquitin-specific protease binding activity. Involved in several processes, including DNA endoreduplication; positive regulation of developmental growth; and positive regulation of macromolecule biosynthetic process. Located in nucleolus. Part of protein-containing complex. Colocalizes with histone locus body. Is expressed in several structures, including anlage in statu nascendi; cuboidal/columnar epithelium; embryonic/larval midgut primordium; germline cell; and gut section. Used to study brain cancer and cancer. Human ortholog(s) of this gene implicated in several diseases, including angiosarcoma; carcinoma (multiple); demyelinating disease; hematologic cancer (multiple); and prostate cancer (multiple). Orthologous to human MYC (MYC proto-oncogene, bHLH transcription factor). [provided by Alliance of Genome Resources, Apr 2025]",
-    "chrsort": "X",
-    "chrstart": 3373158,
+    "geneweight": 2620,
+    "summary": "Enables octopamine receptor activity. Involved in several processes, including adenylate cyclase-activating G protein-coupled receptor signaling pathway; ovulation; and positive regulation of synaptic assembly at neuromuscular junction. Located in plasma membrane. Is expressed in several structures, including adult octopaminergic neurons; epithelial tube; fat body; gland; and somatic muscle cell. Human ortholog(s) of this gene implicated in several diseases, including artery disease (multiple); autoimmune disease (multiple); disease of metabolism (multiple); lung disease (multiple); and open-angle glaucoma (multiple). Orthologous to several human genes including HTR4 (5-hydroxytryptamine receptor 4); ADRB1 (adrenoceptor beta 1); and ADRB2 (adrenoceptor beta 2). [provided by Alliance of Genome Resources, Jul 2025]",
+    "chrsort": "03R",
+    "chrstart": 12550624,
     "organism": {
         "scientificname": "Drosophila melanogaster",
         "commonname": "fruit fly",
@@ -35,23 +35,23 @@
         {
             "annotationrelease": "6.54",
             "assemblyaccver": "GCF_000001215.4",
-            "chraccver": "NC_004354.4",
-            "chrstart": 3373158,
-            "chrstop": 3391696
+            "chraccver": "NT_033777.3",
+            "chrstart": 12595724,
+            "chrstop": 12550624
         },
         {
             "annotationrelease": "6.46",
             "assemblyaccver": "GCF_000001215.4",
-            "chraccver": "NC_004354.4",
-            "chrstart": 3373158,
-            "chrstop": 3391696
+            "chraccver": "NT_033777.3",
+            "chrstart": 12595724,
+            "chrstop": 12550624
         },
         {
             "annotationrelease": "5.57",
             "assemblyaccver": "GCF_000001215.2",
-            "chraccver": "NC_004354.3",
-            "chrstart": 3267191,
-            "chrstop": 3285729
+            "chraccver": "NT_033777.2",
+            "chrstart": 8421446,
+            "chrstop": 8376346
         }
     ]
 }

@@ -17,23 +17,59 @@ CENTROMERE_REGIONS = {
     "X": 1.53e6
 }
 
-def fetch_gene_info(flybase_id):
-    """Fetch gene info from NCBI by FlyBase ID."""
+def fetch_gene_info(identifier):
+    """
+    Fetch gene info from NCBI, supporting either:
+      - FlyBase IDs (FBgnxxxxx)
+      - Gene symbols (e.g., 'eve')
+    
+    Behavior:
+      - FlyBase IDs: searched explicitly in dbXrefs and synonyms, forced to unique match.
+      - Gene names: searched in official symbol field; ambiguous hits raise an error.
+    """
+
+    # --- 1. Detect whether it's a FlyBase ID ---
+    is_flybase_id = identifier.startswith("FBgn")
+
+    # --- 2. Build the search term ---
+    if is_flybase_id:
+        # Search dbXrefs first, much more accurate than synonym search
+        term = (
+            f"{identifier}[Gene ID] OR "
+            f"{identifier}[All Fields] AND Drosophila melanogaster[Organism]"
+        )
+    else:
+        # If it's a gene *name*, search only the symbol field (NOT synonyms!)
+        term = (
+            f"{identifier}[Gene Name] AND "
+            f"Drosophila melanogaster[Organism]"
+        )
+
     params = {
         "db": DB,
-        "term": f"{flybase_id}[Synonym] AND Drosophila melanogaster[Organism]",
+        "term": term,
         "retmode": "json"
     }
+
     resp = requests.get(NCBI_BASE_URL, params=params)
     resp.raise_for_status()
     search_data = resp.json()
-    
+
     id_list = search_data.get("esearchresult", {}).get("idlist", [])
-    if not id_list:
-        raise ValueError(f"No NCBI gene found for FlyBase ID {flybase_id}")
-    
+
+    # --- 3. Handle search results safely ---
+    if len(id_list) == 0:
+        raise ValueError(f"No NCBI gene found for identifier: {identifier}")
+
+    if len(id_list) > 1:
+        raise ValueError(
+            f"Ambiguous gene name '{identifier}'. Candidates: {id_list}. "
+            "Please supply a FlyBase ID (FBgnxxxxx)."
+        )
+
     gene_id = id_list[0]
 
+    # --- 4. Fetch the gene summary ---
     summary_params = {"db": DB, "id": gene_id, "retmode": "json"}
     summary_resp = requests.get(NCBI_SUMMARY_URL, params=summary_params)
     summary_resp.raise_for_status()
@@ -41,8 +77,9 @@ def fetch_gene_info(flybase_id):
 
     gene_data = summary_data["result"][gene_id]
 
+    # --- 5. Save JSON locally (optional) ---
     os.makedirs("ncbi_downloads", exist_ok=True)
-    filepath = f"ncbi_downloads/{flybase_id}.json"
+    filepath = f"ncbi_downloads/{identifier}.json"
     with open(filepath, "w") as f:
         json.dump(gene_data, f, indent=4)
 

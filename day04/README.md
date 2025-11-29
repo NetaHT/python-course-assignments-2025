@@ -4,7 +4,7 @@
 **Output:** gene location- chromosome, genetic distance and recombination rate.
 **Data source:**(NCBI)[https://www.ncbi.nlm.nih.gov/] website.\
 **Warnings:** 
-1. The program warns the user in case of ambigous gene name- a name that can refer to multuple genes. 
+1. The program warns the user in case of ambigous gene name- a name that can refer to multuple genes - e.g. cad. 
 2. The program Let's the user know when one of the genes is close to a centromere, according to parameters that I found in an article, as no recombination occurs in these regions in the fly.\
 **Dependecies:** requests
 
@@ -28,5 +28,8 @@ according to these parameters:
 do you know what could be the reason for this?
 4. yes, please rewrite the "fetch gene info"
 
-םו
+---
+## Examples:
 
+To check the recombination rate of the genes, you can enter gene common names such as: Octbeta3R, Dop1R2, Dpr12.\
+Another option is entering FlyBase IDs such as: FBgn0250910, FBgn0266137, FBgn0085414.
